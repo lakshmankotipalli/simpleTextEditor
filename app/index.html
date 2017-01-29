@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A Simple static text editor where you can write, format your text!</title>
+    <link rel="stylesheet" href="styles/editorStyles.css">
+  </head>
+  <body>
+
+
+    <div class="editOptions">
+      <h2>Format options</h2>
+      <button onmousedown="event.preventDefault();" onclick="command('bold');">Bold</button>
+       <button onmousedown="event.preventDefault();" onclick="command('italic');">Italic</button>
+       <button onmousedown="event.preventDefault();" onclick="command('underline');">Underline</button>
+      <button onmousedown="event.preventDefault();" onclick="command('superscript');">Superscript
+      </button>
+      <button onmousedown="event.preventDefault();" onclick="command('cut');">Cut</button>
+      <button onmousedown="event.preventDefault();" onclick="command('copy);">Copy</button>
+      <button onmousedown="event.preventDefault();" onclick="command('increaseFontSize');">
+      Font size up
+      </button>
+      <button onmousedown="event.preventDefault();" onclick="command('decreaseFontSize');">
+      Font size down
+      </button>
+    </div>
+
+
+    <div class="editSpace">
+      <p editableContentTitle="p">
+        Write here..!
+      </p>
+    </div>
+
+
+    <script type="text/javascript" src="scripts/editor.js">
+
+    </script>
+
+  </body>
+</html>

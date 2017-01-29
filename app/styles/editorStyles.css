@@ -1,0 +1,91 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.editSpace {
+  outline: none;
+  background: #fff;
+/*   color: #B3B3B1; */
+  color: #444;
+  font-size: 24px;
+  font-style: normal;
+  padding: 16px;
+  width: 65%;
+  margin: 50px;
+  border: 1px solid #58595B;
+  border-radius: 5px;
+
+  font-size: 18px;
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 1.5px;
+}
+
+.editOptions h2 {
+  padding: 10px;
+}
+
+.editOptions {
+  width: 65%;
+  background: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 500px;
+  margin: 50px;
+}
+
+
+b {
+  font-weight: bold;
+}
+
+big {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+small {
+  font-size: 14px;
+}
+
+code {
+  background: white;
+  margin-left: 5px;
+  padding: 5px;
+  font-family: 'Inconsolata', monospace;
+}
+
+p,
+pre {
+  display: inline-block;
+}
+
+.optionSpace {
+  border: 1px solid #ddd;
+  padding: 0 20px 20px;
+}
+
+button {
+  color: #212121;
+  min-width: 88px;
+  padding: 10px 14px;
+  outline: 0;
+  outline-offset: 0;
+  border: 0;
+  border-radius: 2px;
+  transition: all 0.15s ease-in-out;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  &:hover {
+    color: #141414;
+    background-color: #e5e5e5;
+  }
+}
